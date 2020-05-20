@@ -1,0 +1,67 @@
+body{
+  background: url("D:/Study/projects/The Open Studio/assests/photos/bgos.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#header{
+    background: url("D:/Study/projects/The Open Studio/assests/photos/jumbotron.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+*{
+    box-sizing: border-box;
+}
+hr{
+	width:480px;
+	border-top: 2px solid black;
+	border-bottom: 2px solid rgba(1,1,1,0);
+}
+.jumbotron{
+font-family:Trade Winds ;
+}
+.navbar {
+    font-family:Lacquer ;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px 30px;
+  vertical-align: middle;
+  margin:0 auto;
+}
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  padding: 5px;
+}
+@media (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+    padding: 0 4px;
+  }
+}
+.fa{
+  transition: width 2s, height 2s, transform 2s;
+}
+
+.fa:hover {
+  transform: rotate(360deg);
+}
+}
+hr{
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s;
+}
+
+hr:hover {
+  width: 300px;
+}
