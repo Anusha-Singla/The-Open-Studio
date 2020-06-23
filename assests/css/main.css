@@ -1,10 +1,10 @@
 body{
-  background: url("D:/Study/projects/The Open Studio/assests/photos/bgos.jpg");
+  background: url("assests/photos/bgos.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 #header{
-    background: url("D:/Study/projects/The Open Studio/assests/photos/jumbotron.jpg");
+    background: url("assests/photos/jumbotron.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
